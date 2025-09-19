@@ -36,10 +36,3 @@ def ritprijs(leeftijd, weekendrit, afstand_km):
 
     eindprijs = basisprijs * (1 - korting)
     return round(eindprijs, 2)
-
-
-# Voorbeeldtests
-print(ritprijs(10, False, 30))  # Verwacht: 16.8
-print(ritprijs(70, True, 60))   # Verwacht: 33.15
-print(ritprijs(30, True, 60))   # Verwacht: 30.6
-print(ritprijs(30, False, 30))  # Verwacht: 24.0
